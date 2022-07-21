@@ -4,3 +4,6 @@
 ```bash
 mvn package -DskipTests
 ```
+```bash
+nohup java -jar user-back-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod &
+```
