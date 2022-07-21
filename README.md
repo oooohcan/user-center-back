@@ -5,4 +5,6 @@
 运行/src/main/java/org/oooohcan/userback/UserBackApplication.java文件
 
 ##### 服务器运行
+```bash
 RUN mvn package -DskipTests
+```
