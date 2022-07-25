@@ -24,6 +24,7 @@ import static org.oooohcan.userback.constant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = {"http://47.115.230.131"}, allowCredentials = "true")
 public class userController {
     @Resource
     private UserService userService;
